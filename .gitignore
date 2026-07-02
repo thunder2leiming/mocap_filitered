@@ -1,0 +1,48 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================
+# IDE / Editors
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Large model files (>100MB, GitHub hard limit)
+# ========================
+deploy/planner/target_vel/V2/planner_sonic.onnx
+
+# ========================
+# Jupyter Notebook checkpoints
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Misc
+# ========================
+*.log
+*.tmp
+*.bak
+push_to_github.bat
